@@ -6,23 +6,46 @@
 body{
     background-color: turquoise;
 }
-#container {
+.level{
+    font-size: 25px;
+}
+button {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.div-100{
+    width: 1000px;
+    height: 1000px;
+}
+.div-81{
+    width: 900px;
+    height: 900px;
+}.div-49{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+div{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px;
-
     
 }
-#container div {
-    height: 10vw;
-    width: 10vw;
-    border: 1px solid black;
-}
+
 .box{
-    display: flex;
+       display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 100px;
+    width: 100px;
+border: 1px solid black;
+}
+.blue{
+    background-color: rgb(24, 129, 199);
+}
+.box:active{
+    background-color: red;
 }
