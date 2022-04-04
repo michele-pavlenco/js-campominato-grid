@@ -12,9 +12,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
     margin: 100px;
+
     
 }
-.container div {
+#container div {
     height: 10vw;
     width: 10vw;
     border: 1px solid black;
