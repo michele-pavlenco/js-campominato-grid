@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: turquoise;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+}
+.container div {
+    height: 10vw;
+    width: 10vw;
+    border: 1px solid black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
